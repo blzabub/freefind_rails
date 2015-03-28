@@ -12,7 +12,7 @@
               %a#ffresult_adv1{ onclick: "ffresults.show(1);", href: "http://search.freefind.com/find.html?si=71497153&amp;pid=a&amp;sbv=j1" } advanced
 
       %form#ffresult_sbox1{ style: "margin:0px; margin-top:4px;", action: "http://search.freefind.com/find.html", method: :get, accept_charset: "utf-8", onsubmit: "ffresults.show(1);" }
-        %input{ type: "hidden", name: "si", value: "71497153" }
+        %input{ type: "hidden", name: "si", value: freefind_site_id }
         %input{ type: "hidden", name: "pid", value: "r" }
         %input{ type: "hidden", name: "n", value: "0" }
         %input{ type: "hidden", name: "_charset_", value: "" }
