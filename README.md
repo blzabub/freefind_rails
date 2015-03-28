@@ -18,9 +18,16 @@ Or install it yourself as:
 
     $ gem install freefind_rails
 
+Include the javascript into the asset pipeline:
+/app/assets/javascripts/application.js
+
+    //= require freefind
+
 ## Usage
 
-TODO: Write usage instructions here
+Add the _freefind_search.html.haml view partial where you want the search input box to appear
+
+    = render partial: 'freefind'
 
 ## Contributing
 
