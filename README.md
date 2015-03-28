@@ -1,6 +1,6 @@
-# FreefindRails
+# Freefind Rails
 
-TODO: Write a gem description
+Easy way to use freefind.com search service in your Rails app. You need to create an account at freefind.com first.
 
 ## Installation
 
