@@ -27,9 +27,13 @@ Include the javascript into the asset pipeline:
 
 Add the _freefind_search.html.haml view partial where you want the search input box to appear
 
-    = render partial: 'freefind_search', locals: { freefind_site_id: your-id }
+    = render partial: '/freefind_search', locals: { freefind_site_id: your-id }
 
-Make sure to pass your freefind site id into the partial as a local variable. This can be done in the parent application using a Rails configuration file.
+Make sure to pass your freefind site id into the partial as a local variable. This can be done in the parent application by hardcoding it directly or by using a Rails configuration file.
+
+Add the _freefind_onpage_results.html.haml view partial to the same page if you want search results to populate into that same page instead of in a new page.
+
+    = render partial: '/freefind_onpage_results'
 
 ## Contributing
 
